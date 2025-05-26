@@ -19,6 +19,9 @@ class CompagniaAerea:
     def getAnno(self):
         return self._anno_fondazione
     
+    def getNome(self):
+        return self._nome
+    
     def __repr__(self):
         return f"Compagnia Aerea: {self._nome}. Fondata nel {self.getAnno()}"
     

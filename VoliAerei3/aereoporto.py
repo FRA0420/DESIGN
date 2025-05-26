@@ -13,5 +13,8 @@ class Aereoporto:
     def getNome(self):
         return self._nome
     
+    def getCodice(self):
+        return self._codice
+    
     def __repr__(self):
         return f"Aereoporto nome: {self.getNome()}, codice: {self._codice}"
