@@ -1,4 +1,4 @@
-# from typing import Self
+from typing import Self
 from datetime import date
 
 class DataGE1895(date):  #data maggiore del 1895

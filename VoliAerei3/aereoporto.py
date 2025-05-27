@@ -7,14 +7,14 @@ class Aereoporto:
         self._codice=codice
 
 
-    def setNome(self,nome:str):
+    def setNome(self,nome:str) -> None:
         self._nome=nome
 
-    def getNome(self):
+    def getNome(self) -> str:
         return self._nome
     
-    def getCodice(self):
+    def getCodice(self) -> str:
         return self._codice
     
-    def __repr__(self):
-        return f"Aereoporto nome: {self.getNome()}, codice: {self._codice}"
+    def __repr__(self) -> str:
+        return f"Aereoporto nome: {self.getNome()}, codice: {self.getNome()}"
